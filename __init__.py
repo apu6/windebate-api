@@ -11,6 +11,7 @@ from werkzeug.exceptions import NotFound
  
 app = Flask(__name__)
 CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 app.config.update(
 	DEBUG=True,
@@ -30,6 +31,7 @@ mentors_index = 2
 
 
 @app.route('/mentees', methods=['POST', 'GET'])
+@cross_origin()
 def mentees():
 
     global mentees_index
