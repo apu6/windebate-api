@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "win-debate-1532803146784",
+  "private_key_id": "cb25db181fef9b791f3a3511c4daab5b612d2d32",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDGAGPql/vF74/t\nRvTUnwubr6DgQUI/Psh99EB+HIlCqAEIaoSuLGvKOyNDpAws/aDKwrNfQC89aDsm\nKhb1vOYdpOCLlsn+XL7smkQDDxQftO/hv0BtnxDjKK0tmLQktCw4AfP0IXUKosd8\nOCEk86xutQr0J79JLEf9G6wLt/q/siiqqSPkxCujesvxSfLVEcIrBtWSfO15LSLj\nHB9FV0IEjY4LcC6tuTnqiYlS+o2ySfrPbzyeZjI1LZPlQz1eldTCQwbVOeMmEn9H\notCbLrBARW1WliiCTc2uGLm/eaW2MIRT0mbcfeQE3k0pkiHeKIhQbu9z6mp10CVd\nos1+WXhzAgMBAAECggEAX4RtrwytnVGRpZ4e2vl00KCbo8NnkXoYn0Z23D+o6bqB\ncQ1tv1ZXk4IO44EejI+4A0iE3pTolR+UtTcFx3teqXtSBZTzEd2tDxfmanFaPGd9\nd3JbQubC70q+rGnnsXMnh8dNZ/7B5yUaxe6P8rMIgomc5KbODR8rBUvVpfuVn+aZ\nlb0cTTeWYz6xlwOMv0gI7+a0V67LAyHISfm9oqm9cNJr3lxTHVy7ij5mN9SLvs/6\nfOd3VKKleJhUimc3AQ0gNN6kv61iXGe0Mb7MTX+p23SKgBwguCN64a2J18eP74iC\n5klMn801Bx8iXUWeR+uq7alf+OeqUPJg2yScKKrvyQKBgQDmm7XjlBhFPQqnmLwI\naQsPG8IWcGTkSOgEqXQxRGRSD0DfUyYN6f6TY1poZnXMjKgsisRBAaq0kF8LbuSC\nHia6uroG3SpcCyX6abd/ljGjqU2MWZGk2ptztGmqtyNHqC2Yqoe42TQlP4GoTI8A\nyVB0uMxIrLxR21wwf5aEtsjYqwKBgQDbzZM6qRpZrLGNoiMrx9jiGOtbzflbkzh4\nggmWEmlrjxBw7mLSJXwj4vJ55ByHkHIZHMsL1qDTVuumWw9ScTT9RqaWIGyx5aOe\nRs68l/ukM9aFvRzdPcpiUoYgcXcehL8bM7/yCpwAwM1C4wdV2N0fU6G/Xw5L1oqZ\nH/bbPbxvWQKBgEev/hIaFpVnjWleRI3EwchXk7VQCT0iIOZaGyG5pgoQbdU+zuSi\nah49U3yC5XnJ+/mkxa+DqiJpgvJV7bk5UEbaBzxdAm8MlCjNNlr2QMYkulO4AFuk\nDZEhc3u7ZL9A27PKx1hCRUCTBmZgLlBLRLSUQgURlZVIwNbewtbMz5DzAoGAEqd9\nyUq0u8uWPgj2py6Mz5OB1gbDFOyHrGKM4bmqTMCViqAQrvkTchA+t+2OJksyA8OX\nz+dlOspzsWilAkAtWRl35eHWl7p/il1ECmlzp9nmaO9F1dj6piGO1I4MqABoH6zi\nq24PE1lJklWmN7jx+0ijv5QXqIQKuzglQTIaHfECgYEAtu03aCf6cWaY7TGbfq99\nlCEua15a5AnkIiONkokQJVW2K/Fx+Z4r7iyA7Vy9zkNIRxkQr6AjwJEKBmDbKCYN\nk9va5ljPH5+7ZL2apXTwAzs3qS1aLOs5GANenFdySYIhfRtB3EucYWW9+7rCxhI4\nL6zEg2l673u3OTWzAS2OazY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "win-debate@win-debate-1532803146784.iam.gserviceaccount.com",
+  "client_id": "108803557662014461133",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/win-debate%40win-debate-1532803146784.iam.gserviceaccount.com"
+}
