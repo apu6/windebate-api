@@ -31,7 +31,6 @@ mentors_index = 2
 
 
 @app.route('/mentees', methods=['POST', 'GET'])
-@cross_origin()
 def mentees():
 
     global mentees_index
