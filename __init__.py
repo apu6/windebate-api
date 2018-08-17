@@ -204,8 +204,7 @@ def mentorLogin():
                 for password in sheet.col_values(2):
                     if password == req["password"]:
                         return json.dumps(sheet.row_values(row))
-                    else:
-                        raise NotFound()
+                    
             else:
                 row +=1
         raise NotFound()
