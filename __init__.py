@@ -197,16 +197,16 @@ def mentorLogin():
     if request.method == 'POST':
         req = request.get_json()
 
+        return "Hi"
 
         row = 1
         for email in sheet.col_values(1):
             if email == req["email"]:
                 for password in sheet.col_values(2):
                     if password == req["password"]:
-                        if req["approved"] == "yes":
                             return json.dumps(sheet.row_values(row))
-                        else:
-                            raise NotFound()
+                    else:
+                        raise NotFound()
             else:
                 row +=1
         raise NotFound()
