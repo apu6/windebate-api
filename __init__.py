@@ -203,7 +203,8 @@ def mentorLogin():
             if email == req["email"]:
                 for password in sheet.col_values(2):
                     if password == req["password"]:
-                        return json.dumps(sheet.row_values(row))
+                        if sheet.cell(row, 10).value == "yes":
+                            return json.dumps(sheet.row_values(row))
             else:
                 row +=1
         raise NotFound()
