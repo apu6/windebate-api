@@ -161,7 +161,7 @@ def menteeLogin():
 
     if request.method == 'POST':
         req = request.get_json()
-        if len(req) == 0:
+        if req["email"] == None or req["password"] == None:
             raise NotFound()
 
         row = 1
