@@ -215,6 +215,27 @@ def mentorLogin():
         print(all_mentors)
         return json.dumps(all_mentors)
 
+@app.route('/contact', methods=['POST'])
+def contact():
+
+    global mail
+
+    if request.method == 'POST':
+        req = request.get_json()
+
+        msg = Message("New contact message", sender="w.indebate2019@gmail.com", 
+        recipients=[
+            "w.indebate2019@gmail.com",
+            # "lindseyperlman14@gmail.com",
+            # "claire.liu333@gmail.com",
+            # "wuxjulia@gmail.com"
+            ])
+        msg.body = "Name: " + req["name"] + '\nEmail: ' + req["email"] + "\n Message: " + req["message"]
+        mail.send(msg)
+
+        
+
+
 @app.errorhandler(NotFound)
 def handle_404(err):
     return 'Not found', 404
