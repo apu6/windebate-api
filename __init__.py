@@ -48,7 +48,7 @@ def mentees():
 
     if request.method == 'POST':
         req = request.get_json()
-        
+
         row = [req["email"], req["password"], req["firstName"], req["lastName"], req["age"], req["school"], req["genderPronoun"], req["preferences"]]
         sheet.insert_row(row, mentees_index)
         mentees_index += 1
