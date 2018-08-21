@@ -49,7 +49,7 @@ def mentees():
     if request.method == 'POST':
         req = request.get_json()
         
-        row = [req["email"], req["password"], req["firstName"], req["lastName"], req["age"], req["school"], req["preferences"]]
+        row = [req["email"], req["password"], req["firstName"], req["lastName"], req["age"], req["school"], req["genderPronoun"], req["preferences"]]
         sheet.insert_row(row, mentees_index)
         mentees_index += 1
 
@@ -86,7 +86,7 @@ def mentors():
     if request.method == 'POST':
         req = request.get_json()
         
-        row = [req["email"], req["password"], req["firstName"], req["lastName"], req["age"], req["school"], req["experience"]]
+        row = [req["email"], req["password"], req["firstName"], req["lastName"], req["age"], req["school"], req["genderPronoun"], req["experience"]]
         sheet.insert_row(row, mentors_index)
         mentors_index += 1
 
@@ -232,6 +232,7 @@ def contact():
             ])
         msg.body = "Name: " + req["name"] + '\nEmail: ' + req["email"] + "\n Message: " + req["message"]
         mail.send(msg)
+
 
         
 
