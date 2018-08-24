@@ -20,7 +20,7 @@ app.config.update(
 	MAIL_PORT=465,
 	MAIL_USE_SSL=True,
 	MAIL_USERNAME = 'w.indebate2019@gmail.com',
-	MAIL_PASSWORD = 'qgucMvK5%3a~nX'
+	MAIL_PASSWORD = 'qgucMvK5%3a~nx'
 	)
 mail = Mail(app)
 
